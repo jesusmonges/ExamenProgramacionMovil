@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuHistorial"
+        android:title="Historial detallado"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuVaciar"
+        android:title="Vaciar historial"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuLogin"
+        android:title="Iniciar sesion"
+        android:orderInCategory="300"
+        android:visible="true"
+        android:icon="@drawable/ic_user"/>
+    <!-- Otros elementos del menú -->
+</menu>
